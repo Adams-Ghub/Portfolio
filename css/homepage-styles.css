@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -12,4 +15,42 @@ body {
 .header-container a {
   margin-right: 16px;
   margin-top: 19px;
+}
+
+.headline {
+  margin: 30px 16px 17px 16px;
+}
+
+.headline > h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #1a2236;
+  margin-bottom: 22px;
+}
+
+.headline > div > p {
+  color: #1a2236;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  font-family: "Poppins", sans-serif;
+}
+
+.headline > button {
+  font-family: "poppins", sans-serif;
+  width: 288px;
+  height: 52px;
+  font-size: 18px;
+  font-weight: 500px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1a2236;
+  background-color: transparent;
+}
+
+.headline > button:hover {
+  background-color: #1a2236;
+  color: #fff;
 }
