@@ -19,6 +19,9 @@ body {
 
 .headline {
   margin: 30px 16px 17px 16px;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .headline > h1 {
